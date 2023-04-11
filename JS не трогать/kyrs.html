@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Document</title> 
+</head> 
+<body>      
+   <div class="papa"> 
+        <div class="container"> 
+        <div class="header"> 
+            <button class="btnMinsk newBtnCity btnCity" value="Minsk">Минск</button>
+            <button class="btnVitebsk btnCity" value="Vitebsk">Витебск</button>
+            <button class="btnBrest btnCity" value="Brest">Брест</button> 
+            <p class="weather">Погода Беларусь</p>
+            <button class="btnMogilev btnCity" value="Mogilev">Могилёв</button>
+            <button class="btnGrodno btnCity" value="Гродно">Гродно</button>
+            <button class="btnGomel btnCity" value="Gomel">Гомель</button>
+        </div> 
+        <div class = "main"> 
+            <div class = "wind">
+                <p class="KMH">km/h</p>
+            </div>
+            <div class="text"> 
+                <div class="Apitext"></div>
+                <div class="poisk">
+                    <input type="text" class="drygou" placeholder="введите другой город">
+                    <button class="poiskText">поиск</button>
+                </div>
+                
+                <div class="circle">
+                <img src="" alt="Weather" class = "img">
+            </div>
+         </div>
+           
+            <div class = "humidity">
+                <div class = "ApiH"></div>
+                <div class = "divPre"></div>
+            </div>
+        </div>   
+    </div> 
+    <div class = footer> 
+        <button class="fonS colorS">light</button>
+        <div class="ttttt">
+             <div class="localTime"></div>
+            <div class = "temperature"> 
+           <div class = "temp_c"></div> 
+        </div> 
+    </div>
+       <div class="fonD">dark</div>
+    </div> 
+</div>     
+    <script src="./script.js"></script>
+</body> 
+</html>

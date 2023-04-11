@@ -1,0 +1,267 @@
+*{ 
+    box-sizing: border-box; 
+    margin:0; 
+} 
+.container{ 
+    width: 100vw; 
+    height: 600px; 
+} 
+.footer{ 
+    width: 100vw; 
+    height:50vh; 
+    background-color: blue; 
+    padding-top: 10px; 
+    padding-bottom: 20px; 
+    background: url(img/трва.jpg) no-repeat left top /cover; 
+    background-size: 100vw 50vh;
+    display: flex;  
+    justify-content: space-around;  
+    flex-direction: row;
+    text-align: center;  
+    align-items: center; 
+} 
+.header{ 
+    width: 100vw; 
+    height: 100px; 
+    background: url(img/новое\ небо.jpg) no-repeat left top /cover; 
+    background-size: 100vw 400px;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    text-align: center; 
+} 
+.weather{ 
+    font-size: 50px; 
+    margin:0; 
+    color:cadetblue
+} 
+.circle{ 
+    height: 300px; 
+    width: 300px; 
+    border-radius: 50%; 
+} 
+.img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.temperature{ 
+    width: 20vw; 
+    height: 20vw; 
+    border-radius: 50%; 
+    display: flex;  
+    justify-content: center;  
+    text-align: center;  
+    align-items: center; 
+    box-shadow: 1px 1px 10px 10px rgb(78, 74, 74); 
+} 
+.papa{ 
+    width: 100vw; 
+    height:110vh; 
+} 
+.temp_c{ 
+    font-size: 6rem; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+} 
+.main{ 
+    width:100vw; 
+    height: 500px; 
+    background: url(img/prrda2-scaled.jpg) no-repeat left top /100vw 500px; 
+    display: flex;  
+    justify-content: space-around;  
+    text-align: center;  
+    align-items: center; 
+} 
+.C{ 
+    width: 1vw; 
+    height: 10vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+} 
+.teC{ 
+    font-size: 3rem; 
+    width: 3vw;
+    height: 10vh;
+} 
+.wind{
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+    font-size: 5rem;
+    color:rgb(199, 244, 0);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    background: url(img/5036179.png) no-repeat left top /cover;
+    background-color:rgba(42, 53, 255, 0.583) ;
+    background-size: 400px 300px;
+    box-shadow: 1px 1px 10px 10px rgba(42, 53, 255, 0.583);
+}
+.humidity{
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+    font-size: 7rem;
+    color:rgb(0, 244, 33);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    background: url(img/1975551.png) no-repeat left top /cover ;
+    background-size: 400px 300px;
+    background-color:rgba(223, 42, 255, 0.583) ;
+    box-shadow: 1px 1px 10px 10px rgba(223, 42, 255, 0.583);  
+}
+.Presant{
+    font-size: 7rem;
+}
+.divPre{
+    width: 100px;
+    height: 100px;
+
+}
+.ApiH{
+    width: 100px;
+    height:100px;
+}
+.prosto{
+    width: 100vw;
+    height: 500px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.btnCity{
+    width: 150px;
+    height: 100px;
+    background-color: rgba(36, 38, 54, 0.518);
+    font-size: 2rem;
+    color:rgb(0, 244, 33)
+}
+.newBtnCity{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(42, 244, 255);
+    font-size: 2rem;
+}
+.KMH{
+    font-size: 3rem;
+}
+.localTime{
+    width: 10vw;
+    height: 7vh;
+    border-radius: 15%;
+    background-color: rgba(64, 62, 64, 0.388);
+    font-size: 25px;
+    display: flex;  
+    justify-content: center;  
+    text-align: center;  
+    align-items: center; 
+}
+.text{
+    width: 300px;
+    height: 500px;
+    display: flex;  
+    justify-content: space-around;  
+    flex-direction: column;
+    text-align: center;  
+    align-items: center; 
+}
+.Apitext{
+    width:300px;
+    height: 70px;
+    font-size: 2rem;
+    color:rgba(97, 17, 140, 0.722)
+}
+.fonS{
+width: 140px;
+height: 70px;
+background-color: rgba(246, 240, 240, 0.50);;
+display: flex;  
+justify-content: space-around;
+flex-direction: row;
+text-align: center;  
+align-items: center;
+border: 0px;
+border-radius: 15%;
+font-size: 3rem;
+}
+.ttttt{
+    width: 20vw;
+    height: 50vh;
+    display: flex;  
+    justify-content: space-around;  
+    flex-direction: column;
+    text-align: center;  
+    align-items: center; 
+}
+.fonD{
+width: 140px;
+height: 70px;
+background-color: rgba(0, 0, 0, 0.50);
+display: flex;  
+justify-content: space-around;  
+flex-direction: row;
+text-align: center;  
+align-items: center;
+border-radius: 15%;
+font-size: 3rem;
+}
+.newHeader{
+    background:url(img/nebo-40.png) no-repeat left top /100vw 100px;
+}
+.newMain{
+    background:url(img/peizazh-44.jpg) no-repeat left top /100vw 500px;
+}
+.newFooter{
+    background:url(img/trva\ novaya.jpg) no-repeat left top /100vw 50vh;
+}
+.colorS{
+    background-color: white;
+    color:rgba(221, 0, 255, 0.733)
+}
+.colorD{
+    background-color: black;
+    color:rgba(221, 0, 255, 0.733)
+}
+.drygou{
+    width: 250px;
+    height: 20px;
+}
+.poisk{
+    width: 300px;
+    height: 20px;
+    display: flex;  
+    justify-content: space-around;  
+    flex-direction: row;
+    text-align: center;  
+    align-items: center; 
+}
+.poiskText{
+width: 45px;
+height: 20px;
+background-color: rgb(0, 255, 221);
+display: flex;  
+justify-content: space-around;
+flex-direction: row;
+text-align: center;  
+align-items: center;
+border: 0px;
+border-radius: 15%;
+}
+.error{
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    z-index: 100;
+    top: 20vh;
+    left:43vw;
+    background-color: red;
+    font-size: 2.7rem;
+}
